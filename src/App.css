@@ -1,3 +1,33 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* root and global styling  */
+:root {
+  /* main colors for site */
+  --color-green: #687864;
+  --color-blue: #3680b9;
+  --color-dark-blue: #5085a5;
+  --color-light-blue: #8fc1e3;
+  --color-white-blue: #eaf1f9;
+  /* sub colors */
+  --color-black: #111;
+  --color-white: #fff;
+  /* gradient colors */
+  --colorful-background: linear-gradient(
+    -45deg,
+    #eeaa52,
+    #e73c6f,
+    #fcd628,
+    #f33e7d
+  );
+  --simple-background: linear-gradient(
+    var(--color-blue),
+    var(--color-white-blue)
+  );
+  --simple-background-reversed: linear-gradient(
+    var(--color-white-blue),
+    var(--color-blue)
+  );
+  --simple-background-mid: linear-gradient(
+    var(--color-white-blue),
+    var(--color-light-blue)
+  );
 }
