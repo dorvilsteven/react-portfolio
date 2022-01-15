@@ -1,5 +1,6 @@
-import './hero.css';
+import React from 'react';
 import headerProfile from '../pictures/profile-small.jpg';
+import './hero.css';
 
 function Hero() {
     return (
