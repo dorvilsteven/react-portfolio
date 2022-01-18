@@ -31,3 +31,20 @@
     var(--color-light-blue)
   );
 }
+
+@media screen and (min-width: 768px) {
+  /* global styles */
+  ::-webkit-scrollbar {
+    display: block;
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-blue);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-light-blue);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-white-blue);
+  }
+}

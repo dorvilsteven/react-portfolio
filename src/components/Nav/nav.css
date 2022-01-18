@@ -4,6 +4,7 @@ nav {
   justify-content: space-between;
   padding: 0.5em;
   border-bottom: 2px solid var(--color-dark-blue);
+  background: var(--color-blue);
 }
 .nav-left {
   width: 25%;
@@ -71,25 +72,10 @@ nav {
 
 /* media queries  */
 @media screen and (min-width: 768px) {
-  /* global styles */
-  ::-webkit-scrollbar {
-    display: block;
-    width: 20px;
-  }
-  ::-webkit-scrollbar-track {
-    background: var(--color-blue);
-  }
-  ::-webkit-scrollbar-thumb {
-    background: var(--color-light-blue);
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-white-blue);
-  }
   /* nav header  */
   nav {
     position: sticky;
     top: 0;
-    background: var(--color-blue);
   }
   .nav-right {
     width: 50%;

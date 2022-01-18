@@ -1,29 +1,34 @@
-import React from 'react';
+import React, { useState } from "react";
+// import React from 'react';
 import './App.css';
+import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Bio from "./pages/Bio/Bio";
+import Portfolio from "./pages/Portfolio/Portfolio"
+import Connect from "./pages/Connect/Connect";
 
 function App() {
-  const navMenu = document.querySelector("#nav-menu");
-  const navButton = document.querySelector("#menu-bars");
-  const navExitButton = document.querySelector("#exit");
+  const [bioSelected, setBioSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [connectSelected, setConnectSelected] = useState(false);
 
-  // when button is clicked, show and hide nav menu in mobile mode
-  navButton.addEventListener("click", showMenu);
-  navExitButton.addEventListener("click", hideMenu);
-
-  function showMenu() {
-      navMenu.style.display = "flex";
-      navButton.style.display = "none"
-  }
-
-  function hideMenu() {
-      navMenu.style.display = "";
-      navButton.style.display = "";
-  }
   return (
     <div className="App">
+      <Nav 
+        bioSelected={bioSelected}
+        setBioSelected={setBioSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
+        connectSelected={connectSelected}
+        setConnectSelected={setConnectSelected}
+      />
       <Header />
+      <div className="main">
+          {bioSelected && <Bio />}
+          {portfolioSelected && <Portfolio />}
+          {connectSelected && <Connect />}
+      </div>
       <Footer />
     </div>
   );

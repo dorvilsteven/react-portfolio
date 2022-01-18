@@ -10,3 +10,9 @@ body {
   box-sizing: border-box;
   font-family: "Bebas Neue", cursive;
 }
+a {
+  text-decoration: none;
+}
+i {
+  width: 100%;
+}
