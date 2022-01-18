@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.040a2516.css",
+    "main.js": "/react-portfolio/static/js/main.f4ee407b.js",
+    "static/js/787.c7cfa3ab.chunk.js": "/react-portfolio/static/js/787.c7cfa3ab.chunk.js",
+    "static/media/smagums.png": "/react-portfolio/static/media/smagums.d287eec065219ec45f55.png",
+    "static/media/kitchensinkchef.png": "/react-portfolio/static/media/kitchensinkchef.45dffb8a37e5e4a7139a.png",
+    "static/media/runbuddy.png": "/react-portfolio/static/media/runbuddy.bc13185704bb7a88d42e.png",
+    "static/media/profile-small.jpg": "/react-portfolio/static/media/profile-small.d787e106508a62d466d7.jpg",
+    "static/media/quiz.png": "/react-portfolio/static/media/quiz.d1411efa77e12fec2e30.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.32472cca956e081b725a.png",
+    "static/media/weatherapp.png": "/react-portfolio/static/media/weatherapp.5c865accd77f3833822b.png",
+    "static/media/workdayscheduler.png": "/react-portfolio/static/media/workdayscheduler.a33418ae87af2e99235d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.040a2516.css.map": "/react-portfolio/static/css/main.040a2516.css.map",
+    "main.f4ee407b.js.map": "/react-portfolio/static/js/main.f4ee407b.js.map",
+    "787.c7cfa3ab.chunk.js.map": "/react-portfolio/static/js/787.c7cfa3ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.040a2516.css",
+    "static/js/main.f4ee407b.js"
+  ]
+}
