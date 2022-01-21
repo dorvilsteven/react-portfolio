@@ -69,6 +69,10 @@ all the side works
   background: url("https://via.placeholder.com/250x150");
   margin: 0.5em;
 }
+.shmovies {
+  background-image: url("../../components/pictures/shmovies.png");
+  background-size: cover;
+}
 .smagums {
   background-image: url("../../components/pictures/smagums.png");
   background-size: cover;
